@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+@media (min-width: 600px){
+    div{
+        background-color: yellow;
+        padding: 20px;
+    }
+}
+@media (max-width: 601px) {
+    div{
+        background-color: white;
+        color: white;
+    }
+    h1{
+        margin: 0;
+    }
+}

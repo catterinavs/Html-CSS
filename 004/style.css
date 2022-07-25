@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+
+table{
+    border: 1px solid red;
+    width: 500px;
+    padding: 1px;
+}
+td{
+    border: 1px solid blue;
+}

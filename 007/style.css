@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+caption{
+    background-color: #0d5188;
+    color: white;
+    padding: 2px;
+}
+th{
+    background-color: #66C5E3;
+}
+table{
+    background-color: #c7e7f3;
+    width: 600px;
+    margin: 2px;
+    padding: 2px;
+    font-weight: bold;
+}
+.posicao{
+    width: 10%;
+    background-color: silver;
+    font-weight: normal;
+}
+.cidade{
+    color: #0D5188;
+    text-align: left;
+}
+.cidade2{
+    text-align: left;
+}
+.pop{
+    width: 15%;
+    font-weight: normal;
+}

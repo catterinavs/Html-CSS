@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>004</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Ficha Cadastral</h2>
+    <table>
+        <form>
+            <tr>
+                <td colspan="1">
+                    <label for="nome">Nome: </label>
+                </td>
+                <td>
+                    <input type="text" id="nome" size="55">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rg">RG:</label>
+                </td>
+                <td>
+                    <input type="number" id="rg" size="13">
+                </td>
+                <td>
+                    <label for="cpf">CPF:</label>
+                </td>
+                <td>
+                    <input type="number" id="cpf" size="13">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="end">Endereço:</label>
+                </td>
+                <td>
+                    <input type="text" id="end" size="55">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="sexo">Sexo:</label>
+                </td>
+                <td>
+                    <select id="sexo">
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                    </select>
+                </td>
+                <td>
+                    <label for="datanasc">Data Nascimento:</label>
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+        <tr>
+            <td>
+                <p>Situação Civil</p>
+            </td>
+            <td>
+                <input type="radio" id="sc">
+                <label for="sc">Solteiro(a)</label>
+            </td>
+            <td>
+                <input type="radio" id="sc">
+                <label for="sc">Casado(a)</label>
+            </td>
+            <td>
+                <input type="radio" id="sc">
+                <label for="sc">Viúvo(a)</label>
+            </td>
+        </tr>
+    </table>
+    </form>
+    <input type="reset" value="Limpar Dados">
+
+</body>
+
+</html>
