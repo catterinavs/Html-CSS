@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    padding: 2px;
+}
+h1{
+    color: green;
+    font-size: 20px;
+}
+address{
+    font-style: normal;
+    font-weight: normal;
+}
+td > label{
+    text-align: right;
+}
+p{
+    font-weight: normal;
+}
+th{
+    text-align: left;
+}
+#bottom{
+    position: relative;
+    bottom: 30px;
+}
+.dir{
+    text-align: right;
+}
