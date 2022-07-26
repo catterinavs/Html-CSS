@@ -15,37 +15,37 @@
     <table>
         <form>
             <tr>
-                <td colspan="1">
+                <td class="col1">
                     <label for="nome">Nome: </label>
                 </td>
-                <td>
-                    <input type="text" id="nome" size="55">
+                <td colspan="3">
+                    <input type="text" id="nome" class="tam1">
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="col1">
                     <label for="rg">RG:</label>
                 </td>
                 <td>
-                    <input type="number" id="rg" size="13">
+                    <input type="number" id="rg" class="tam2">
                 </td>
                 <td>
                     <label for="cpf">CPF:</label>
                 </td>
                 <td>
-                    <input type="number" id="cpf" size="13">
+                    <input type="number" id="cpf" class="tam2">
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="col1">
                     <label for="end">Endereço:</label>
                 </td>
-                <td>
-                    <input type="text" id="end" size="55">
+                <td colspan="3">
+                    <input type="text" id="end" class="tam1">
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="col1">
                     <label for="sexo">Sexo:</label>
                 </td>
                 <td>
@@ -58,30 +58,31 @@
                     <label for="datanasc">Data Nascimento:</label>
                 </td>
                 <td>
-                    <input type="date">
+                    <input type="date" id="data">
                 </td>
             </tr>
-        <tr>
-            <td>
-                <p>Situação Civil</p>
-            </td>
-            <td>
-                <input type="radio" id="sc">
-                <label for="sc">Solteiro(a)</label>
-            </td>
-            <td>
-                <input type="radio" id="sc">
-                <label for="sc">Casado(a)</label>
-            </td>
-            <td>
-                <input type="radio" id="sc">
-                <label for="sc">Viúvo(a)</label>
-            </td>
-        </tr>
-    </table>
+        <table>
+            <tr>
+                <td class="col1">
+                    <p>Situação Civil</p>
+                </td>
+                <td>
+                    <input type="radio" id="sc">
+                    <label for="sc">Solteiro(a)</label>
+                </td>
+                <td>
+                    <input type="radio" id="sc">
+                    <label for="sc">Casado(a)</label>
+                </td>
+                <td>
+                    <input type="radio" id="sc">
+                    <label for="sc">Viúvo(a)</label>
+                </td>
+            </tr>
+        </table>
+        <input type="reset" value="Limpar Dados">
     </form>
-    <input type="reset" value="Limpar Dados">
+</table>    
 
 </body>
-
 </html>
