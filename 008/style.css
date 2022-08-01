@@ -74,19 +74,27 @@ caption > div{
     display: inline-flex;
 }
 .divmar{
-    border: 5px solid #003366;
+    width: 10px;
+    height: 10px;
+    background-color: #003366;
     border-radius: 2px;
 }
 .divazul{
-    border: 5px solid #1398BE;
+    width: 10px;
+    height: 10px;
+    background-color: #1398BE;
     border-radius: 2px;
 }
 .divamarelo{
-    border: 5px solid #DE9800;
+    width: 10px;
+    height: 10px;
+    background-color: #DE9800;
     border-radius: 2px;
 }
 .divverm{
-    border: 5px solid #C91B04;
+    width: 10px;
+    height: 10px;
+    background-color: #C91B04;
     border-radius: 2px;
 }
 #sigla{
